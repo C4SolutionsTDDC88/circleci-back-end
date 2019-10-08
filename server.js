@@ -46,5 +46,7 @@ http.createServer(app).listen(port, () => {
     console.log('Server started!');
     console.log(`Server listening on port ${port}`);
 
+    console.log("Environment", process.env.IS_CIRCLECI);
+
     if (process.env.IS_CIRCLECI) process.exit(0);
 });
