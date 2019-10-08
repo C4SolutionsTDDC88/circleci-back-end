@@ -27,7 +27,7 @@ jobs:
       - image: circleci/node:10.16.3
     working_directory: ~/
     environment:
-          FLASK_CONFIG: testing
+          IS_CIRCLECI: true
     steps:
       - attach_workspace:
           at: ~/
