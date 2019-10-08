@@ -1,2 +1,2 @@
 # circleci-back-end
-Test repository for CircleCI front-end
+Test repository for CircleCI back-end
