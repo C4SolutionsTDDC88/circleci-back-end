@@ -33,7 +33,7 @@ jobs:
           at: ~/
       - run:
           name: Build back-end
-          command: cd back-end && npm run start
+          command: cd back-end && npm run build
 
 workflows:
   version: 2
